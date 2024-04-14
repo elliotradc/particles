@@ -1,4 +1,13 @@
-// i stole this not saying who from though
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
+/* Otherwise just put the config content (json): */
 particlesJS('particles-js',
   
   {
@@ -23,7 +32,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "my shape.png",
+          "src": "my photo.png",
           "width": 100,
           "height": 100
         }
@@ -117,5 +126,4 @@ particlesJS('particles-js',
       "background_size": "cover"
     }
   }
-
 );
